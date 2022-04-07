@@ -1,0 +1,170 @@
+
+
+/* -------------- RESET -------------- */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --background-primary: #1c1b29;
+  --background-secundary: #e1e1e1;
+  --background-terciary: #e1e1e1;
+  --background-quaternary: #fff;
+  --background-fifth: #21af1f;
+  --background-sixth: #2a283b;
+  --background-seven: #3a3852;
+  --background-footer: #151420;
+}
+.App{
+  text-align: center;
+  margin-top: 50px;
+}
+/* -------------- HEADER -------------- */
+ header{
+  background-image: url("./Assets/spacemorty.jpg");
+  height: 400px;
+  overflow: hidden;
+  background-position: center,center;
+}
+h1{
+  color: var(--background-secundary);
+  margin-top: 10px;
+  font-size: 30px;
+}
+.headerText{
+  margin-top: 30px;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.one{
+  display: inline;
+  margin: 90px;
+  align-items: center;
+}
+.two{
+  display: inline;
+  margin: 90px;
+  align-items: center;
+}
+.three{
+  display: inline;
+  margin: 90px;
+  align-items: center;
+}
+h2{
+  color: var(--background-secundary);
+  text-align: left;
+}
+li.cardContainer{
+  display: flex;
+}
+.status{
+  background-color: var(--background-primary);
+  border-radius: 5px;
+  justify-content: flex-end;
+  display: flex;
+  margin-left: 30px;
+}
+h2{
+  font-size: 18px;
+}
+h3{
+  color: var(--background-secundary);
+  text-align: center;
+}
+p{
+  color: var(--background-secundary);
+  font-size: 18px;
+}
+span{
+  font-weight: bold;
+}
+/* .back{
+  background-color: var(--background-seven);
+  border-radius: 30px;
+  margin-bottom: 20px;
+} */
+.input{
+  position: relative;
+  display: inline-block;
+  font-size: 24px;
+  box-sizing: border-box;
+  transition: .5s;
+  background-color: var(--background-terciary);
+}
+.input[type=text]{
+  background: var(--background-quaternary);
+  border: none;
+  outline: none;
+  padding: 0 35px;
+  border-radius: 25px 0 0 25px;
+}
+.btn{
+  margin-top: -12px;
+  font-size: 16px;
+  position: relative;
+  border-radius: 0 25px 25px 0;
+  background-color: var(--background-fifth);
+  border: none;
+  outline: none;
+/* -------------- BODY -------------- */
+}
+body{
+  background-color: var(--background-primary);
+  flex-direction: column;
+}
+.Container{
+  display: flex;
+  float: left;
+  align-items: center;
+  justify-content: center;
+  width: 40rem;
+  margin-top: 40px;
+  margin-bottom: -100px;
+  margin-left: -92px;
+  margin-right: -100px;
+}
+.card{
+  background-color: var(--background-sixth);
+  box-shadow: 0 0 30px 0 rgba(0,0,0,0.32);
+}
+
+img{
+  border-radius: 10%;
+  width: 17rem;
+}
+/* -------------- FOOTER -------------- */
+/* footer{
+
+} */
+/* -------------- RESPONSIVE -------------- */
+@media screen and (max-width:768px){
+
+  }
+  .card{
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 80px;
+    padding: 20px;
+    background-color: var(--background-sixth);
+    border-radius: 30px;
+    box-shadow: 0 0 30px 0 rgba(0,0,0,0.18);
+    position: relative;
+   }
+  
+
+/* @media(min-width: 768px){
+  .card{
+    flex-direction: column;
+    text-align: left;
+    margin-bottom: 80px;
+    padding: 40px;
+    background-color: var(--background-sixth);
+    border-radius: 40px;
+    box-shadow: 0 0 30px 0 rgba(0,0,0,0.18);
+    position: relative;
+  } */
+
+
+
